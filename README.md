@@ -8,7 +8,7 @@ This web application allows users to chat anonymously on the dark web. It works 
 
 Follow these steps to set up the chat application:
 
-1. **Clone the repository**: `git clone [<repository_url>](https://github.com/onezero-1-0-hqzylxgo/Fchat.git)`
+1. **Clone the repository**: `git clone https://github.com/onezero-1-0-hqzylxgo/Fchat.git`
 2. Install Tor: First, update your package list and install Tor: `sudo apt-get update && sudo apt-get install tor`
 3. Copy files to the web server directory: Navigate to the Fchat directory and copy the files to your web server's document root: `cd Fchat`,`cp ./* /var/www/html/` Alternatively, you can change the Apache configuration to point to the location where your files are stored.
 4. Start the Apache web server: Run the following command to start Apache: `sudo service apache2 start`
