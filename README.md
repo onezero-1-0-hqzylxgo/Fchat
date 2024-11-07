@@ -47,3 +47,6 @@ Follow these steps to set up the chat application:
 - This chat application is designed for use on the dark web via Tor and should not be accessed through regular browsers.
 - All data (user information and chat history) is stored in plain text files, which is suitable for minimalistic setups but not recommended for production use or large-scale applications.
 - Ensure that you configure Apache and Tor properly for security and anonymity.
+
+## if you was kicked
+![alt text](normaluser.png)
