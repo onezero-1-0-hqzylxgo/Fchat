@@ -1,0 +1,379 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: aliceblue; /* Inherits color from the parent element */
+    cursor: pointer; /* Removes pointer cursor */
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}
+.title {
+    font-size: 450%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form_item label {
+    font-size: 280%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.form_item input {
+    font-size: 180%;
+
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+
+    border: none;
+    border-radius: 1rem;
+}
+
+.form_item input[type="submit"] {
+
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    background-color: rgb(165, 165, 165);
+
+    width: 34%;
+    height: 10%;
+    padding: 1%;
+    cursor: pointer;
+    
+}
+
+.form_item input[type="color"] {
+    width: 10%;
+    height: 2.5rem;
+    padding: 1%;
+    cursor: pointer;
+    
+    margin-left: 3%;
+    margin-bottom: 0;
+    padding: 0;
+
+    border: none;
+    border-radius: 0rem;
+}
+
+
+.container-chat {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.chatside {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.yourside-out {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 40, 32);
+
+    height: 99vh;
+
+}
+
+
+.yourside {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(19, 40, 32);
+    width: 19vw;
+    height: 30%;
+
+    padding: 1%;
+    
+}
+
+.you {
+    background-color: aqua;
+
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+
+    margin-top: 0.8rem;
+    margin-left: 3%;
+}
+.yourname {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+
+    width: 75%;
+
+    margin-top: 0;
+    margin-left: 0.6rem;
+}
+
+
+
+
+
+.chatside {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    width: 60vw;
+    height: 99vh;
+}
+
+
+
+.usersside {
+    display: flex;
+    flex-direction: column;
+    
+    overflow: auto;
+    
+    background-color: rgb(19, 40, 32);
+
+    width: 100vw;
+    height: 97.9vh;
+
+    padding: 1%;
+}
+
+.chat-form {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.chat-form .form_item_box{
+    
+    width: 80%;
+
+    margin-left: 1%;
+    padding: 1%;
+
+    border: none;
+    border-radius: 1rem;
+}
+
+.chat-form .form_item_box input{
+
+    background-color: rgb(73, 73, 73);
+    
+    font-size: 1.6rem;
+
+    width: 100%;
+
+    padding: 1%;
+
+    border: none;
+    border-radius: 1.3rem;
+}
+
+.chat-form .form_item_send{
+    
+    width: 20%;
+
+    margin-left: 1%;
+    padding: 1%;
+
+    border: none;
+    border-radius: 1rem;
+}
+
+.chat-form .form_item_send input[type="submit"]{
+
+    background-color: rgb(0, 140, 186);
+    
+    font-size: 1.6rem;
+
+    width: 100%;
+
+    padding: 1%;
+
+    border: none;
+    border-radius: 1.3rem;
+    cursor: pointer;
+}
+
+.chats {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-self: flex-end;
+
+    overflow-y: auto;
+
+
+    width: 100vw;
+    height: 96vh;
+
+    gap: 10px;
+
+    padding: 2%;
+}
+
+
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    
+
+
+    padding: 0.8%;
+    border-radius: 5px 20px 20px 20px;
+    margin-right: auto;
+
+    word-wrap: break-word;
+
+}
+
+
+
+.auther {
+    margin-top: 2%;
+    font-size: 0.9rem;
+    text-shadow: 
+        0 0 35px rgba(255, 255, 255, 1),  /* Very bright white shadow */
+        0 0 70px rgba(255, 255, 255, 1),  /* Larger blur for maximum brightness */
+        0 0 100px rgba(255, 255, 255, 1);
+
+}
+.content {
+    margin-right: 2%;
+
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Ensure long words break */
+    white-space: normal; /* Allow normal wrapping */
+    word-break: break-all; /* Break at any point if necessary */
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    text-shadow: 
+        0 0 35px rgba(255, 255, 255, 1),  /* Very bright white shadow */
+        0 0 70px rgba(255, 255, 255, 1),  /* Larger blur for maximum brightness */
+        0 0 100px rgba(255, 255, 255, 1);
+}
+
+
+.user {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+
+.user_pic {
+    background-color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    margin-top: 1%;
+}
+
+.username {
+
+    color: white;
+    margin-left: 2%;
+}
+
+.logout {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    color: aliceblue;
+
+    width: 100%;
+    height: 5vh;
+
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+
+    border: none;
+    box-shadow: 0px 0px 20px 0.1px rgb(250, 3, 3);
+
+    cursor: pointer;
+
+}
+
+.kicked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: red;
+    width: 98vw;
+    padding: 0.1%;
+}
+
+
+iframe {
+    overflow: hidden;
+    border: none; /* Removes border */
+}
+
+.admin {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.kickbutton {
+    cursor: pointer;
+    margin-left: 3%;
+    background-color: black;
+}
+.imojis {
+    height: 55vh;
+    font-size: 2rem;
+
+
+    padding: 5%;
+}
+
+.imoji {
+
+    text-shadow: 
+        0 0 600px rgb(0, 255, 208),  /* Very bright white shadow */
+        0 0 10px rgb(0, 255, 204),  /* Larger blur for maximum brightness */
+        0 0 2px rgb(0, 255, 208);
+
+}
