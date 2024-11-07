@@ -1,9 +1,19 @@
 # Fchat
-This is for dark web without java script
 
-this web application made for dark web usage to chat eachother with anonymusly
-this is worked under the safest option in the browser like torbrowser because this application never used any serverside code like javascripts this application used (php,html,css) this application dont used any database management systems chat histry and users are store in the text file calles users.txt and chats.txt 
+This is a web application designed for the dark web, without using JavaScript.
 
-# How To  Install
-1 - first run this command git clone ---------------
-2 - then install tor using `sudo apt-get update && apt-get install tor`
+This web application allows users to chat anonymously on the dark web. It works under the safest browser settings, such as Tor Browser. The application does not use any server-side code like JavaScript. It is built using PHP, HTML, and CSS. The application does not use a database management system; chat history and user data are stored in plain text files called `users.txt` and `chats.txt`.
+
+## How to Install
+
+Follow these steps to set up the chat application:
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository_url>
+2. Install Tor: First, update your package list and install Tor: `sudo apt-get update && sudo apt-get install tor`
+3. Copy files to the web server directory: Navigate to the Fchat directory and copy the files to your web server's document root: `cd Fchat`,`cp ./* /var/www/html/` Alternatively, you can change the Apache configuration to point to the location where your files are stored.
+4. Start the Apache web server: Run the following command to start Apache: `sudo service apache2 start`
+5. Configure Tor for hidden services: Open the Tor configuration file: `sudo nano /etc/tor/torrc` Uncomment the lines related to hidden services and configure them.
+6. Start Tor service: Run the following command to start Tor: `sudo systemctl start tor`
+7. Get your onion address: Once Tor is running, use the following command to find your Tor hidden service's .onion address `cat /var/lib/tor/hidden_service/hostname`
