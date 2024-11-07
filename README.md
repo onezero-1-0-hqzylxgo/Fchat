@@ -1,5 +1,5 @@
 # Fchat
-![alt text](admin.png)
+![alt text](pic_admin.png)
 
 This is a web application designed for the dark web, without using JavaScript.
 
@@ -49,4 +49,4 @@ Follow these steps to set up the chat application:
 - Ensure that you configure Apache and Tor properly for security and anonymity.
 
 ## if you was kicked
-![alt text](normaluser.png)
+![alt text](pic_normaluser.png)
