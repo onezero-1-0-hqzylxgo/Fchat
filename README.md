@@ -52,4 +52,4 @@ Follow these steps to set up the chat application:
 ![alt text](pic_normaluser.png)
 
 ## Warning: 
-<span style="color:red">not safe this application but you can chage code to improve security</span>
+not safe this application but you can chage code to improve security
