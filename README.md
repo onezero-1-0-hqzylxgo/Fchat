@@ -51,4 +51,5 @@ Follow these steps to set up the chat application:
 ## if you was kicked
 ![alt text](pic_normaluser.png)
 
-## Warning: not safe this application but you can chage code to improve security
+## Warning: 
+<span style="color:red">not safe this application but you can chage code to improve security</span>
